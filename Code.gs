@@ -163,10 +163,9 @@ function getHuefiText(message) {
 
 
 /*LOG MESSAGE DATA */
-/**logs on second sheet, so you need to create additional sheet to make this method available or just change cheet number */
 function writeLog(data) {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var sheet = ss.getSheets()[1]; /*sheet number*/
+  var sheet = ss.getSheets()[0]; /*sheet number*/
 
   var lastRow = sheet.getLastRow() + 1;
 
