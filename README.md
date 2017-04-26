@@ -8,10 +8,11 @@ Technologies: Google Script App, Telegram Bot Api, Yandex Speechkit, multipart/f
 
 To use it you need:
 1. Make your own bot and get bot-id; https://core.telegram.org/bots , https://telegram.me/botfather
-2. Create new Google Sheets document https://docs.google.com/spreadsheets/. Open Tools-Script Editor and paste Code.gs file from repository
+2. Create new Google Sheets document https://docs.google.com/spreadsheets/. Open Tools->Script Editor and paste Code.gs file from repository
 3. Change botID variable value to your botid;
-4. Choose and run function "Setwebhook" in field "Select Function" (toolbar on top)
-5. If you don't need speech synthes, just comment calling of "sendAudio", otherwise go to Yandex Speechkit and get your access key;
+4. In Top menu  choose Publish->Deploy As web app. In field "Who has access to the app" choose "Anyone, even anonymous". Click Publish. (more about web app https://developers.google.com/apps-script/guides/web#deploying_a_script_as_a_web_app)
+5. Choose and run function "Setwebhook" in field "Select Function" (toolbar on top)
+6. If you don't need speech synthes, just comment calling of "sendAudio", otherwise go to Yandex Speechkit and get your access key;
 https://tech.yandex.ru/speechkit/cloud/doc/guide/concepts/tts-http-request-docpage/
 https://tech.yandex.com/speechkit/cloud/doc/guide/concepts/tts-http-request-docpage/
 
